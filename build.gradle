@@ -1,5 +1,7 @@
 apply plugin: 'groovy'
+apply from: "$rootDir/gradle/dependencies.gradle"
 apply from: "$rootDir/gradle/integration-test.gradle"
+apply from: "$rootDir/gradle/additional-artifacts.gradle"
 
 repositories {
     jcenter()
@@ -7,7 +9,7 @@ repositories {
 
 dependencies {
     compile gradleApi()
-    testCompile( 'com.netflix.nebula:nebula-test:3.1.0' ) {
+    testCompile( "com.netflix.nebula:nebula-test:${versions.nebulaTest}" ) {
         exclude module: 'groovy-all'
     }
 }
