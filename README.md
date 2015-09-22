@@ -2,6 +2,7 @@ Gradle Plugin for Node
 =======================
 
 [![Build Status](http://goo.gl/gWKi3f)](http://goo.gl/SvKt0Y)
+[![Coverage Status](https://coveralls.io/repos/srs/gradle-node-plugin/badge.svg?branch=newstruct&service=github)](https://coveralls.io/github/srs/gradle-node-plugin?branch=newstruct)
 [![License](http://goo.gl/MMfZhl)](http://goo.gl/D6iAcM)
 [![Download](http://goo.gl/7HBa4S)](http://goo.gl/FfQphx)
 
