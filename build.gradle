@@ -1,3 +1,7 @@
+buildscript {
+    apply from: "$rootDir/gradle/buildscript.gradle", to: buildscript
+}
+
 apply plugin: 'groovy'
 apply plugin: 'build-dashboard'
 apply from: "$rootDir/gradle/coverage.gradle"
