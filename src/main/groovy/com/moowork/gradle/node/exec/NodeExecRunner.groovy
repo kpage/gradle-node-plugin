@@ -32,7 +32,7 @@ class NodeExecRunner
             {
                 nodeEnvironment['Path'] = nodeBinDirPath + File.pathSeparator + System.getenv( 'Path' )
             }
-            else
+            if ( System.getenv( 'PATH' ) != null )
             {
                 nodeEnvironment['PATH'] = nodeBinDirPath + File.pathSeparator + System.getenv( 'PATH' )
             }
